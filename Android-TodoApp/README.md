@@ -1,12 +1,9 @@
-<p align=center>
-  <img src="ANDROID TODO APP.png">
-</p>
+# Android-TodoApp
 
+Never Forget What TODO
 
-## Simple notes app using Realm Database
+**Built with:** Java
+**Topics:** `java`, `android-application`, `android`, `todo`, `realm`, `database`
 
-#### Features
-- Add notes
-- List notes
-- Delete notes
-
+---
+↩ Part of the [**css-snippets**](../) collection · [all collections](https://github.com/fadyehabamer?tab=repositories) · [@fadyehabamer](https://github.com/fadyehabamer)

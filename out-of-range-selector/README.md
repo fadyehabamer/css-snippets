@@ -1,20 +1,11 @@
-> out of range selector
-> 
-> make specific style if input **within** range or **without**
+# out-of-range-selector
 
-```css
-.element:in-range{
-  /* syles if input is in range */
-}
+out of range selector for inputs in CSS
 
-.element:out-of-range{
-  /* syles if input is not in range */
-}
+### 🔗 [View Live Demo](https://fadyehabamer.github.io/css-snippets/out-of-range-selector/)
 
-```
+**Built with:** CSS
+**Topics:** `css`, `input`, `range`
 
-<p align="center">
-
-  <img src="img.png">
-
-</p>  
+---
+↩ Part of the [**css-snippets**](../) collection · [all collections](https://github.com/fadyehabamer?tab=repositories) · [@fadyehabamer](https://github.com/fadyehabamer)

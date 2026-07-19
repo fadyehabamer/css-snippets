@@ -1,2 +1,8 @@
-# Mizuxe
-## Semi Advanced Bootstarp4 theme that is about a trending book 
+# Mizuxe-Booktheme
+
+Advanced bootstrap4 theme
+
+**Topics:** `bootsrap4`
+
+---
+↩ Part of the [**css-snippets**](../) collection · [all collections](https://github.com/fadyehabamer?tab=repositories) · [@fadyehabamer](https://github.com/fadyehabamer)

@@ -1,15 +1,11 @@
-## change browser tab theme
-> This repo. explains how to change **browser tab theme in mobile**
+# change-browser-tab-theme
 
-> using **only one line of code**
+change browser tab theme in mobile
 
-```html
-<meta name="theme-color" content="Your hexadecimal color">
-```
-* **But have some issues (until the date that the repo created)**
-  * supported only in 
-    * chrome-andriod
-    * samsung browser
-  * **NOT** supported for **Darkmode**
+### 🔗 [View Live Demo](https://fadyehabamer.github.io/css-snippets/change-browser-tab-theme/)
 
-![preview](preview.jpg)
+**Built with:** HTML
+**Topics:** `html5`, `meta`, `theme`
+
+---
+↩ Part of the [**css-snippets**](../) collection · [all collections](https://github.com/fadyehabamer?tab=repositories) · [@fadyehabamer](https://github.com/fadyehabamer)

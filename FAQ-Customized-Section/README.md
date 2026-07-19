@@ -1,6 +1,11 @@
-# FAQ Customized Section
-> Using Css3 Only
+# FAQ-Customized-Section
 
-<p align='center'>
-  <img src='sc.png'>
-</p>
+FAQ-Section Using Css3
+
+### 🔗 [View Live Demo](https://fadyehabamer.github.io/css-snippets/FAQ-Customized-Section/)
+
+**Built with:** HTML
+**Topics:** `css3`, `faq`
+
+---
+↩ Part of the [**css-snippets**](../) collection · [all collections](https://github.com/fadyehabamer?tab=repositories) · [@fadyehabamer](https://github.com/fadyehabamer)

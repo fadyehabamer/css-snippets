@@ -1,23 +1,11 @@
-# Change Profile Image 
-> Like FaceBook 😉👌 with 2 hours of search using
-- HTML
-- CSS
-    - Gradients
-- JS
-    - Built-in JS functions
+# Change-ProfileImg-JS
 
-```javascript
-file.addEventListener("change", function() {
-    const choosedfile = this.files[0];
+Change profile image like "Facebook" using pure javascript
 
-    if (choosedfile) {
-        const reader = new FileReader();
+### 🔗 [View Live Demo](https://fadyehabamer.github.io/css-snippets/Change-ProfileImg-JS/)
 
-        reader.addEventListener("load", () => {
-            img.setAttribute("src", reader.result)
-        });
-        reader.readAsDataURL(choosedfile)
-    }
-});
-```
- 
+**Built with:** CSS
+**Topics:** `html`, `css`, `javascript`, `profile`, `reader`
+
+---
+↩ Part of the [**css-snippets**](../) collection · [all collections](https://github.com/fadyehabamer?tab=repositories) · [@fadyehabamer](https://github.com/fadyehabamer)

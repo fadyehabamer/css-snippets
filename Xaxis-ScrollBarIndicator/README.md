@@ -1,12 +1,11 @@
-## X-axis scrollbar indicator using javascript
+# Xaxis-ScrollBarIndicator
 
-```js
-function movescroll (e){
-    const percentage =
-    ((window.scrollY)/ maxheight)*100
-    scrollElement.style.width = percentage + "%"
-}
-```
-<p align="center">
-    <img src="img.gif">
-</p>
+X-axis scrollbar indicator using javascript
+
+### 🔗 [View Live Demo](https://fadyehabamer.github.io/css-snippets/Xaxis-ScrollBarIndicator/)
+
+**Built with:** HTML
+**Topics:** `scrollbar`, `javascript`, `css`, `animation`, `youtube`
+
+---
+↩ Part of the [**css-snippets**](../) collection · [all collections](https://github.com/fadyehabamer?tab=repositories) · [@fadyehabamer](https://github.com/fadyehabamer)

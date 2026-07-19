@@ -1,9 +1,11 @@
-# Shopping Cart using JS
-> How to build an Ecommerce Functionality using Javascript ?
+# CartMechanism-JS
 
-### Features
-- Add Products
-- Local Storage Support
-- Multi Pages
-- passing data through pages through Local Storage
-- Responsive using bootstrap
+How to build an Ecommerce Functionality using Javascript ?
+
+### 🔗 [View Live Demo](https://fadyehabamer.github.io/css-snippets/CartMechanism-JS/)
+
+**Built with:** HTML
+**Topics:** `javascript`, `bootstrap4`, `shopping-cart`
+
+---
+↩ Part of the [**css-snippets**](../) collection · [all collections](https://github.com/fadyehabamer?tab=repositories) · [@fadyehabamer](https://github.com/fadyehabamer)

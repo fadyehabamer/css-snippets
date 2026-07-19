@@ -1,10 +1,11 @@
 # Ribbons.js
-> small example of usage of ***Ribbons.js***
-* why to use ?
-  * make a cool ribboned background
 
-* Drawbacks
-  * no full-documentation
-  * struggled for a time to know how to use 
+Small Example for Ribbons.js
 
-* [Live Preview](https://ribbonsjs.netlify.app/)
+### 🔗 [View Live Demo](https://fadyehabamer.github.io/css-snippets/Ribbons.js/)
+
+**Built with:** HTML
+**Topics:** `html`, `css`, `javascript`, `bootstrap4`
+
+---
+↩ Part of the [**css-snippets**](../) collection · [all collections](https://github.com/fadyehabamer?tab=repositories) · [@fadyehabamer](https://github.com/fadyehabamer)

@@ -1,0 +1,81 @@
+.poster{
+    display: flex;
+    flex-flow: column;
+    overflow: hidden;
+    margin: 15px 0px;
+    /* box-shadow: 0 0 5px rgba(0,0,0,0.3); */
+    border-radius: 10px;
+    background: var(--bg-primary); 
+    box-shadow:  var(--shadow-one);
+}
+
+
+
+/*info1 part*/
+.info1{
+    display: flex;
+    justify-content: space-between;}
+.info1 h2{
+    padding: 1rem 0 0 1.5rem;
+    /* letter-spacing: 1px; */
+    color: var(--text-primary);
+    font-family: 'Asap Condensed';}
+.icons{
+    padding: 1rem;
+    cursor: pointer;
+    color: var(--text-primary);
+    font-size: 1.3rem;}
+.icons i:hover{
+    color: deeppink;}
+
+
+/*movies part*/
+.movies{
+    display: flex;
+    justify-content: space-around;}
+.movie{
+    /* background-color: rgb(11, 24, 29); */
+    display: flex;
+    width: 170px;
+    height: 303px;
+    margin: 0 10px;
+    flex-flow: column;}
+.movie:hover{
+    border-bottom: 3px solid deeppink;}
+.movie img{
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    width: 170px;
+    height: 250px;}
+
+
+/*info part*/
+.info2{
+    display: flex;
+    height: 50px;
+    width: 170px;}
+.title{
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+.title h4{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: rgb(189, 188, 188);} */
+    color: var(--text-primary);}
+.download{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+.download i{
+    font-size: 1.2rem;
+    padding: 0.2rem;
+    color: var(--text-primary);
+    cursor: pointer;}
+.download i:hover{
+    color: deeppink;}
+
+
+
+

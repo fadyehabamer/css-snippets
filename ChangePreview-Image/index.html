@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>javascript</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+
+	<!-- first page -->
+	<div class="product">
+		<div class="main-img">
+			<img src="img/headphone_blue.png" class="pro-img" alt="product" />
+		</div>
+		<div class="thumb-img">
+			<div class="box active" onclick="changeImage(this,`.thumb-img`,`.pro-img`)">
+				<img src="img/headphone_blue.png" alt="thumb" />
+			</div>
+			<div class="box" onclick="changeImage(this,`.thumb-img`,`.pro-img`)">
+				<img src="img/headphone_pink.png" alt="thumb" />
+			</div>
+			<div class="box" onclick="changeImage(this,`.thumb-img`,`.pro-img`)">
+				<img src="img/headphone_red.png" alt="thumb" />
+			</div>
+		</div>
+	</div>
+<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- second page -->
+	<div class="product">
+		<div class="main-img">
+			<img src="img/headphone_blue.png" class="pro-img two" alt="product" />
+		</div>
+		<div class="thumb-img two">
+			<div class="box active" onclick="changeImage(this,`.two`,`.two`)">
+				<img src="img/headphone_blue.png" alt="thumb" />
+			</div>
+			<div class="box" onclick="changeImage(this,`.two`,`.two`)">
+				<img src="img/headphone_pink.png" alt="thumb" />
+			</div>
+			<div class="box" onclick="changeImage(this,`.two`,`.two`)">
+				<img src="img/headphone_red.png" alt="thumb" />
+			</div>
+		</div>
+	</div>
+
+
+<!-- ------------------------------------------------------------------------------------------------------ -->
+
+<script src="main.js"></script>
+
+</body>
+
+</html>

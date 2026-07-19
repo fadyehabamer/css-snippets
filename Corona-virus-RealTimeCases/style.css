@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    background-color:#252736;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-family: sans-serif;
+}
+.container{
+    background-color: #fff;
+    display: flex;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+}
+.container div{
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin: 10px;
+    height: fit-content;
+}
+.container div span{
+    padding: 10px 20px;
+    font-weight: bold;
+
+}
+.confirmed{
+    background-color: #C5C5C5;
+    color: black;
+
+
+}
+.deathes{
+  background-color:#275EFE;
+    color: white;
+}
+.recovered{
+    background-color: #C5C5C5;
+    color: black;
+
+}
+@media (max-width:530px){
+    .container{
+        flex-direction:column
+    }
+}

@@ -1,0 +1,37 @@
+.section1 header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgb(4,4,24); */
+    background-color: var(--bg-primary);
+    box-shadow:  var(--shadow-one);
+    border-radius: 10px;
+    height: 2.5rem;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search i{
+    font-size: 1.3rem;
+    padding: 0.2rem;
+    color: var(--text-primary);
+}
+
+.search input{
+    padding: 0.3rem 0rem;
+    width: 180px;
+    font-size: 12px;
+    /* background-color: rgb(2, 2, 10); */
+    background-color: var(--bg-primary);
+    /* color: darkgray; */
+    color: var(--text-primary);
+}
+
+.profil i{
+    font-size: 1.3rem;
+    padding: 0.2rem;
+    color: var(--text-primary);
+}

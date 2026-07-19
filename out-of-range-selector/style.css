@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+input {
+    padding: 8px 10px;
+    border: 2px solid black;
+}
+
+input:focus {
+    outline: none;
+}
+
+input:in-range {
+    background-color: rgba(0, 255, 0, 0.25);
+}
+
+input[type="number"]:out-of-range {
+    background-color: rgba(255, 0, 0, 0.25);
+    border: 2px solid red;
+}

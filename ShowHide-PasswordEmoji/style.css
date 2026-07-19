@@ -1,0 +1,153 @@
+body {
+    height: 80vh;
+    box-sizing: border-box;
+    font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+
+
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+}
+
+.all {
+    position: relative;
+}
+
+.title {
+    padding-top: 20px;
+}
+
+.form:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(10px);
+}
+
+.form {
+    margin: 50px auto;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    z-index: 99;
+}
+
+.form .emoji {
+    margin-top: 10px;
+    font-size: 65px;
+}
+
+.form form {
+    margin-top: 15px;
+}
+
+.more .icons i:first-child {
+    color: #0A80EC;
+}
+
+.more .icons i:nth-child(2) {
+    color: #1A91DA;
+}
+
+.more .icons i:last-child {
+    color: #E94235;
+}
+
+.more .icons i {
+    margin-right: 10px;
+    font-size: 20px;
+    cursor: pointer !important;
+}
+
+.input-container {
+    display: flex;
+    margin: 10px 0;
+    justify-content: center;
+
+}
+
+/* Style the form icons */
+.icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+/* Style the input fields */
+.input-field {
+    width: 70%;
+    padding: 10px;
+    outline: none;
+}
+
+.input-field:focus {
+    border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+    margin-top: 20px;
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 70%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+/* ---------------------------------------- */
+/* media quries */
+
+@media only screen and (max-width: 600px) {
+    .title {
+        font-size: 23px;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .more h3 {
+        font-size: 21px;
+    }
+
+    .more .icons i {
+        font-size: 30px;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .form {
+        width: 85%;
+    }
+
+    .more {
+        margin: 60px;
+    }
+
+    .more .icons i {
+        font-size: 38px;
+    }
+
+}

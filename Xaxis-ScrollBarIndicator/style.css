@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    background-color: #111;
+}
+
+.text {
+    font-size: 35px;
+    color: lightgreen;
+    text-align: center;
+    line-height: 1em;
+}
+
+.line {
+    background: white;
+    height: 8px;
+    border-radius: 4px;
+    width: 0%;
+    position: fixed;
+    top: 0;
+    transition: width 0.3s ease-in-out
+}
+
+/* we can remove the webpage default scroll bar  */
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

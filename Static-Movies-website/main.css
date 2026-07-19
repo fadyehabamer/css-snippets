@@ -1,0 +1,16 @@
+main{
+    margin-left: 3rem;
+    padding: 1rem;
+    display: flex;
+    flex-flow: column;
+}
+
+
+@media screen and (max-width: 600px){
+    main{
+        margin-left:0px;
+        /* margin-bottom: 4rem; */
+        padding: 1rem;
+        margin-bottom: 2rem;
+    }
+}

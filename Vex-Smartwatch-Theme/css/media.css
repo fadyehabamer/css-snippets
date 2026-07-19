@@ -1,0 +1,179 @@
+/* Smart Phones And Tablets */
+@media (max-width:767px) {
+    .navbar-nav {
+        margin-top: 20px
+    }
+
+    .navbar .navbar-nav .nav-link {
+        text-align: center;
+        border-bottom: 1px solid #eee;
+        padding: 15px 0
+    }
+
+    .header .head-style .info h1,
+    .features .info h1 {
+        font-size: 33px
+    }
+
+    .header .head-style .info button {
+        margin: 20px auto 0
+    }
+
+    .dolor {
+        padding-bottom: 30px
+    }
+
+    .dolor .dolor-lorem .text {
+        margin-bottom: 15px
+    }
+
+    .dolor .dolor-lorem .text {
+        margin-top: 0
+    }
+
+    .dolor .dolor-lorem .img img {
+        margin: 25px 0;
+        display: inline-block
+    }
+
+    .poster .info .text h2,
+    .dolor .info h1 {
+        font-size: 25px
+    }
+
+    .dolor .dolor-lorem .text h2 {
+        font-size: 23px;
+    }
+
+    .product .info h2 {
+        font-size: 30px
+    }
+
+    .product .info .form input {
+        display: block;
+        margin: auto;
+        width: 75%;
+        border-radius: 0
+    }
+
+    .product .info .form button {
+        margin-top: 10px;
+        border-radius: 0;
+        margin-left: 0
+    }
+
+    .review .text-review a {
+        width: 85%
+    }
+
+    .footer .links li {
+        margin: 0 7px
+    }
+}
+
+@media (max-width:768px) {
+    .navbar-nav {
+        margin-top: 20px
+    }
+
+    .navbar .navbar-nav .nav-link {
+        text-align: center;
+        border-bottom: 1px solid #eee;
+        padding: 15px 0
+    }
+
+    .header .head-style .info h1,
+    .features .info h1 {
+        font-size: 33px
+    }
+
+    .header .head-style .info button {
+        margin: 20px auto 0
+    }
+
+    .dolor {
+        padding-bottom: 30px
+    }
+
+    .dolor .dolor-lorem .text {
+        margin-bottom: 15px
+    }
+
+    .dolor .dolor-lorem .text {
+        margin-top: 0
+    }
+
+    .dolor .dolor-lorem .img img {
+        margin: 25px 0;
+        display: inline-block
+    }
+
+    .poster .info .text h2,
+    .dolor .info h1 {
+        font-size: 25px
+    }
+
+    .dolor .dolor-lorem .text h2 {
+        font-size: 23px;
+    }
+
+    .product .info h2 {
+        font-size: 30px
+    }
+
+    .product .info .form input {
+        display: block;
+        margin: auto;
+        width: 75%;
+        border-radius: 0
+    }
+
+    .product .info .form button {
+        margin-top: 10px;
+        border-radius: 0;
+        margin-left: 0
+    }
+
+    .review .text-review a {
+        width: 85%
+    }
+
+    .footer .links li {
+        margin: 0 7px
+    }
+
+    .header .head-style .info h1 {
+        margin: 35px 0 0
+    }
+}
+
+/* Small Screen */
+@media (min-width:769px) and (max-width:991px) {
+    .navbar-nav {
+        margin-top: 20px
+    }
+
+    .navbar .navbar-nav .nav-link {
+        text-align: center;
+        border-bottom: 1px solid #eee;
+        padding: 15px 0
+    }
+
+    .review .text-review a {
+        width: 45%
+    }
+
+    .header .head-style .info h1 {
+        margin: 35px 0 0
+    }
+
+    .product .info .form input {
+        width: 50%
+    }
+}
+
+/* Medium Screen */
+@media (min-width:992px) and (max-width:1199px) {}
+
+/* Large Screen */
+@media (min-width:1200px) {}

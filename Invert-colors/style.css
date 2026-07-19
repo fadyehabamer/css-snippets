@@ -1,0 +1,40 @@
+body{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+}
+.button{
+    appearance: none;
+    background-color: transparent;
+    color: black;
+    border: 1px solid currentColor;
+    padding: 0.5em 3.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    position: relative;
+}
+button{
+    cursor: pointer;
+}
+.button::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: calc(50% - 10px);
+    left: 14px;
+    background-image: url(heart.svg);
+    background-size: 100%;
+}
+.dark-button{
+    background-color: black;
+    color: white;
+}
+.dark-button::before{
+    filter: invert(1);
+}

@@ -629,6 +629,12 @@ header {
   outline: none;
 }
 
+.contact__form input:focus-visible,
+.navbar__ham:focus-visible {
+  outline: 3px solid var(--orange);
+  outline-offset: 3px;
+}
+
 .contact__form button {
   font-size: 1.5rem;
   margin-top: 60px;

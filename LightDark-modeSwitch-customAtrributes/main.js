@@ -12,4 +12,12 @@ $(document).ready(function () {
       $("html").attr("data-theme", "dark");
     }
   });
+
+  // the theme icon is an <i role="button">: let Enter/Space toggle it too
+  $(".theme_icon").on("keydown", function (e) {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      $(this).trigger("click");
+    }
+  });
 });

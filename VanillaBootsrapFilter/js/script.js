@@ -22,3 +22,11 @@
    	 });
    }
  });
+
+ // filter items are <span role="button">: let Enter/Space activate them too
+ filterContainer.addEventListener("keydown", (event) =>{
+   if((event.key === "Enter" || event.key === " ") && event.target.classList.contains("filter-item")){
+     event.preventDefault();
+     event.target.click();
+   }
+ });

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme Colors Toggler</title>
     
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -14,15 +15,15 @@
 </head>
 <body>
     
-<div id="theme-open" class="fas fa-bars"></div>
+<div id="theme-open" class="fas fa-bars" role="button" tabindex="0" aria-label="Open theme settings"></div>
 
 <div class="themes-container">
 
-    <div id="theme-close" class="fas fa-times"></div>
+    <div id="theme-close" class="fas fa-times" role="button" tabindex="0" aria-label="Close theme settings"></div>
 
     <h3>switch theme</h3>
 
-    <div class="theme-toggler">
+    <div class="theme-toggler" role="button" tabindex="0" aria-label="Toggle dark theme" aria-pressed="false">
         <span>light</span>
         <span class="toggler"></span>
         <span>dark</span>
@@ -31,14 +32,14 @@
     <h3>pick a color</h3>
 
     <div class="theme-colors">
-        <div class="color" style="background:#2980b9"></div>
-        <div class="color" style="background:#27ae60;"></div>
-        <div class="color" style="background:#ffa502;"></div>
-        <div class="color" style="background:#8e44ad;"></div>
-        <div class="color" style="background:#0fb9b1;"></div>
-        <div class="color" style="background:#ffd32a;"></div>
-        <div class="color" style="background:#ff0033;"></div>
-        <div class="color" style="background:#e84393;"></div>
+        <div class="color" style="background:#2980b9" role="button" tabindex="0" aria-label="Blue"></div>
+        <div class="color" style="background:#27ae60;" role="button" tabindex="0" aria-label="Green"></div>
+        <div class="color" style="background:#ffa502;" role="button" tabindex="0" aria-label="Orange"></div>
+        <div class="color" style="background:#8e44ad;" role="button" tabindex="0" aria-label="Purple"></div>
+        <div class="color" style="background:#0fb9b1;" role="button" tabindex="0" aria-label="Teal"></div>
+        <div class="color" style="background:#ffd32a;" role="button" tabindex="0" aria-label="Yellow"></div>
+        <div class="color" style="background:#ff0033;" role="button" tabindex="0" aria-label="Red"></div>
+        <div class="color" style="background:#e84393;" role="button" tabindex="0" aria-label="Pink"></div>
     </div>
 
 </div>

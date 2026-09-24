@@ -287,6 +287,10 @@ body {
     margin-left: -2px
 }
 
+.product .info .form input:focus-visible {
+    box-shadow: 0 0 0 3px var(--main-color);
+}
+
 /* End Products */
 
 /* Start Review */

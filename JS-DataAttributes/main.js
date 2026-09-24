@@ -22,3 +22,13 @@ function toggleOptions() {
 
 }
 icon.addEventListener('click', toggleOptions)
+
+// the gear icon and color swatches are <div role="button">: support Enter/Space
+function activateOnKey(e) {
+    if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault()
+        e.currentTarget.click()
+    }
+}
+icon.addEventListener('keydown', activateOnKey)
+colors.forEach((color) => color.addEventListener('keydown', activateOnKey))

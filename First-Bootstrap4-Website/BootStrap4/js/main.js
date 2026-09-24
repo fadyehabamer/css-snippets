@@ -11,13 +11,21 @@ $(function() {
       .siblings()
       .removeClass("active");
 
-    if ($(this).data("class") === "all") {
+    if ($(this).data("class") === ".all") {
       $(".shuffle-imgs .col-sm").css("opacity", "1");
     } else {
       $(".shuffle-imgs .col-sm").css("opacity", "0.7");
       $($(this).data("class"))
         .parent()
         .css("opacity", "1");
+    }
+  });
+
+  // the filter <li>s are role="button": activate them with Enter/Space too
+  $(".featured ul li").on("keydown", function(e) {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      $(this).trigger("click");
     }
   });
 });

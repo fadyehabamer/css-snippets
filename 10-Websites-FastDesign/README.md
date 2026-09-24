@@ -32,7 +32,6 @@ legal-design/
 newspaper-design/
 portfolio-design/
 restaurant-design/
-script.js
 streaming-design/
 style.css
 technology-design/

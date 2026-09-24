@@ -21,7 +21,7 @@ Mizuxe.rar
 ```bash
 git clone https://github.com/fadyehabamer/css-snippets.git
 cd css-snippets/Mizuxe-Booktheme
-# then open index.html in your browser
+# then extract Mizuxe.rar and open the index.html inside it
 ```
 
 **Topics:** `bootsrap4`

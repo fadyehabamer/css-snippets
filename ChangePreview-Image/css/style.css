@@ -33,6 +33,10 @@ body{
 	border-color:#545454;
 	
 }
+.product .thumb-img .box:focus-visible{
+	outline:3px solid #1f5f8b;
+	outline-offset:2px;
+}
 .product .thumb-img .box img{
       max-width: 100%;
       max-height: 100%;

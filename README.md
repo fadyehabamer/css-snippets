@@ -6,28 +6,28 @@
 
 | Demo | Description | Preview |
 |------|-------------|---------|
-| [`10-Websites-FastDesign`](./10-Websites-FastDesign/) | 10-Website-Fast-Design | [🔗 Live](https://fadyehabamer.github.io/css-snippets/10-Websites-FastDesign/) |
-| [`AboutSection-FrontEndMentor`](./AboutSection-FrontEndMentor/) | Some Ui challenges on front-end mentor website | [🔗 Live](https://fadyehabamer.github.io/css-snippets/AboutSection-FrontEndMentor/) |
+| [`10-Websites-FastDesign`](./10-Websites-FastDesign/) | Ten quick one-page landing designs (automotive, fashion, footwear, legal, news, portfolio, restaurant, streaming, tech, tourism) | [🔗 Live](https://fadyehabamer.github.io/css-snippets/10-Websites-FastDesign/) |
+| [`AboutSection-FrontEndMentor`](./AboutSection-FrontEndMentor/) | Three-card "our benefits" section from a Frontend Mentor-style UI challenge | [🔗 Live](https://fadyehabamer.github.io/css-snippets/AboutSection-FrontEndMentor/) |
 | [`Android-TodoApp`](./Android-TodoApp/) | Never Forget What TODO | — |
-| [`App-Theme`](./App-Theme/) | Using Bootstrap4 | [🔗 Live](https://fadyehabamer.github.io/css-snippets/App-Theme/) |
+| [`App-Theme`](./App-Theme/) | Four-page app landing theme (home, about, services, contact) built on flexboxgrid | [🔗 Live](https://fadyehabamer.github.io/css-snippets/App-Theme/) |
 | [`BorderRaduisGenerator`](./BorderRaduisGenerator/) | Make your perfect border raduis | [🔗 Live](https://fadyehabamer.github.io/css-snippets/BorderRaduisGenerator/) |
 | [`COVID-19`](./COVID-19/) | What is covid 19 and its symptoms and ways to be protected | [🔗 Live](https://fadyehabamer.github.io/css-snippets/COVID-19/) |
 | [`CaptchaValidation-JS`](./CaptchaValidation-JS/) | Custom captcha validation using vanilla javascript | [🔗 Live](https://fadyehabamer.github.io/css-snippets/CaptchaValidation-JS/) |
 | [`CartMechanism-JS`](./CartMechanism-JS/) | How to build an Ecommerce Functionality using Javascript ? | [🔗 Live](https://fadyehabamer.github.io/css-snippets/CartMechanism-JS/) |
 | [`Change-ProfileImg-JS`](./Change-ProfileImg-JS/) | Change profile image like "Facebook" using pure javascript | [🔗 Live](https://fadyehabamer.github.io/css-snippets/Change-ProfileImg-JS/) |
 | [`ChangePreview-Image`](./ChangePreview-Image/) | How to change preview image while clicking on other img using ( Pure JS ) | [🔗 Live](https://fadyehabamer.github.io/css-snippets/ChangePreview-Image/) |
-| [`ChartJS-BarChart`](./ChartJS-BarChart/) | Using Chart.js | [🔗 Live](https://fadyehabamer.github.io/css-snippets/ChartJS-BarChart/) |
+| [`ChartJS-BarChart`](./ChartJS-BarChart/) | Bar chart rendered with Chart.js 2 | [🔗 Live](https://fadyehabamer.github.io/css-snippets/ChartJS-BarChart/) |
 | [`Content-Creator`](./Content-Creator/) | Full Website using HTML / CSS / JS | [🔗 Live](https://fadyehabamer.github.io/css-snippets/Content-Creator/) |
-| [`Corona-virus-RealTimeCases`](./Corona-virus-RealTimeCases/) | My first try in using APIs using axios | [🔗 Live](https://fadyehabamer.github.io/css-snippets/Corona-virus-RealTimeCases/) |
+| [`Corona-virus-RealTimeCases`](./Corona-virus-RealTimeCases/) | Live global COVID-19 totals fetched from a public API with axios | [🔗 Live](https://fadyehabamer.github.io/css-snippets/Corona-virus-RealTimeCases/) |
 | [`Counter-LocalStorageApp`](./Counter-LocalStorageApp/) | Counter App with Local Storage | [🔗 Live](https://fadyehabamer.github.io/css-snippets/Counter-LocalStorageApp/) |
 | [`Customized-Google-Maps`](./Customized-Google-Maps/) | Google Maps with search bar overlayed over it | [🔗 Live](https://fadyehabamer.github.io/css-snippets/Customized-Google-Maps/) |
 | [`DARK-LIGHT-Website`](./DARK-LIGHT-Website/) | Personal Abstract Website using JS & Css3 | [🔗 Live](https://fadyehabamer.github.io/css-snippets/DARK-LIGHT-Website/) |
 | [`DSC-openSource-Presentation`](./DSC-openSource-Presentation/) | DSC Open Source Presentation | — |
-| [`Dark-Theme-Portfolio`](./Dark-Theme-Portfolio/) | Using Html5 & Css3 | [🔗 Live](https://fadyehabamer.github.io/css-snippets/Dark-Theme-Portfolio/) |
+| [`Dark-Theme-Portfolio`](./Dark-Theme-Portfolio/) | Dark one-page portfolio with a Fancybox image gallery | [🔗 Live](https://fadyehabamer.github.io/css-snippets/Dark-Theme-Portfolio/) |
 | [`Email-Validation`](./Email-Validation/) | Email validation using Javascript | [🔗 Live](https://fadyehabamer.github.io/css-snippets/Email-Validation/) |
 | [`FAQ-Customized-Section`](./FAQ-Customized-Section/) | FAQ-Section Using Css3 | [🔗 Live](https://fadyehabamer.github.io/css-snippets/FAQ-Customized-Section/) |
-| [`First-Bootstrap4-Website`](./First-Bootstrap4-Website/) | Using Html5 & Css3 & Jquery & Bootstrap4 | [🔗 Live](https://fadyehabamer.github.io/css-snippets/First-Bootstrap4-Website/) |
-| [`Github-SignIn-Page`](./Github-SignIn-Page/) | Using CSS3 | [🔗 Live](https://fadyehabamer.github.io/css-snippets/Github-SignIn-Page/) |
+| [`First-Bootstrap4-Website`](./First-Bootstrap4-Website/) | Personal portfolio site with a filterable work gallery (Bootstrap 4 + jQuery) | [🔗 Live](https://fadyehabamer.github.io/css-snippets/First-Bootstrap4-Website/) |
+| [`Github-SignIn-Page`](./Github-SignIn-Page/) | Recreation of the GitHub sign-in page in HTML & CSS | [🔗 Live](https://fadyehabamer.github.io/css-snippets/Github-SignIn-Page/) |
 | [`Github-profile-page`](./Github-profile-page/) | Tailwind Github profile page | [🔗 Live](https://fadyehabamer.github.io/css-snippets/Github-profile-page/) |
 | [`Google-SearchPage`](./Google-SearchPage/) | Google Search Page | [🔗 Live](https://fadyehabamer.github.io/css-snippets/Google-SearchPage/) |
 | [`Invert-colors`](./Invert-colors/) | Invert colours using filter property in css3 | [🔗 Live](https://fadyehabamer.github.io/css-snippets/Invert-colors/) |
@@ -40,7 +40,7 @@
 | [`MeowImages-Api`](./MeowImages-Api/) | Get Random cat images from an API | [🔗 Live](https://fadyehabamer.github.io/css-snippets/MeowImages-Api/) |
 | [`Minimal-DarkDashBoard`](./Minimal-DarkDashBoard/) | Minimal dashboard with a dark theme | [🔗 Live](https://fadyehabamer.github.io/css-snippets/Minimal-DarkDashBoard/) |
 | [`Mizuxe-Booktheme`](./Mizuxe-Booktheme/) | Advanced bootstrap4 theme | — |
-| [`Movie-Land`](./Movie-Land/) | Using HTML & CSS | [🔗 Live](https://fadyehabamer.github.io/css-snippets/Movie-Land/) |
+| [`Movie-Land`](./Movie-Land/) | "MOVIELAND" movie landing page in HTML & CSS | [🔗 Live](https://fadyehabamer.github.io/css-snippets/Movie-Land/) |
 | [`New-event`](./New-event/) | One Page Website Using Html & Css3 Only | [🔗 Live](https://fadyehabamer.github.io/css-snippets/New-event/) |
 | [`NewsLetter-Design`](./NewsLetter-Design/) | NewsLetter design | [🔗 Live](https://fadyehabamer.github.io/css-snippets/NewsLetter-Design/) |
 | [`OTP-AutoFocus`](./OTP-AutoFocus/) | Next input autofocus using javascript | [🔗 Live](https://fadyehabamer.github.io/css-snippets/OTP-AutoFocus/) |
@@ -48,11 +48,11 @@
 | [`Phineas-and-Ferb`](./Phineas-and-Ferb/) | Ferb character from Phineas & Ferb show | [🔗 Live](https://fadyehabamer.github.io/css-snippets/Phineas-and-Ferb/) |
 | [`Pure-AdminDashBoard`](./Pure-AdminDashBoard/) | native admin dashboard | [🔗 Live](https://fadyehabamer.github.io/css-snippets/Pure-AdminDashBoard/) |
 | [`QRCode-Generator`](./QRCode-Generator/) | QR code Generator and Text to QR code | [🔗 Live](https://fadyehabamer.github.io/css-snippets/QRCode-Generator/) |
-| [`Relaxer-App`](./Relaxer-App/) | Relax! | [🔗 Live](https://fadyehabamer.github.io/css-snippets/Relaxer-App/) |
+| [`Relaxer-App`](./Relaxer-App/) | Guided breathing animation (breathe in, hold, breathe out) | [🔗 Live](https://fadyehabamer.github.io/css-snippets/Relaxer-App/) |
 | [`Ribbons.js`](./Ribbons.js/) | Small Example for Ribbons.js | [🔗 Live](https://fadyehabamer.github.io/css-snippets/Ribbons.js/) |
 | [`ShowHide-PasswordEmoji`](./ShowHide-PasswordEmoji/) | Show/Hide Password using Js | [🔗 Live](https://fadyehabamer.github.io/css-snippets/ShowHide-PasswordEmoji/) |
 | [`Static-Movies-website`](./Static-Movies-website/) | a static page for movies | [🔗 Live](https://fadyehabamer.github.io/css-snippets/Static-Movies-website/) |
-| [`Tailwind-Playground`](./Tailwind-Playground/) | TailWind Playground | [🔗 Live](https://fadyehabamer.github.io/css-snippets/Tailwind-Playground/) |
+| [`Tailwind-Playground`](./Tailwind-Playground/) | Scratch page for trying Tailwind CSS v4 via the browser CDN | [🔗 Live](https://fadyehabamer.github.io/css-snippets/Tailwind-Playground/) |
 | [`Theme-Colors-Toggler`](./Theme-Colors-Toggler/) | Change themes and colours of the website | [🔗 Live](https://fadyehabamer.github.io/css-snippets/Theme-Colors-Toggler/) |
 | [`UI-Messenger-chat`](./UI-Messenger-chat/) | Coded UI Messenger chat | [🔗 Live](https://fadyehabamer.github.io/css-snippets/UI-Messenger-chat/) |
 | [`UI-To-HTML`](./UI-To-HTML/) | UI design to HTML | [🔗 Live](https://fadyehabamer.github.io/css-snippets/UI-To-HTML/) |

@@ -37,3 +37,9 @@ body::-webkit-scrollbar-thumb{
     --text-primary:#0a0a25;
     --shadow-one:0px 0px 13px -6px rgba(0,0,0,0.6);
     --bg-primary:rgb(255, 255, 255);} */
+
+
+/* the * reset removes all outlines; keep a visible keyboard focus ring on the search input */
+input:focus-visible{
+    outline: 2px solid var(--text-primary);
+    outline-offset: 2px;}

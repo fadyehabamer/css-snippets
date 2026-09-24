@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -29,27 +30,27 @@
 
       <nav>
         <ul class="sb-ul">
-          <li class="op active">
+          <li class="op active" role="button" tabindex="0">
             <i class="fas fa-chart-pie"></i>
             <p>overview</p>
           </li>
 
-          <li class="op">
+          <li class="op" role="button" tabindex="0">
             <i class="fas fa-user-alt"></i>
             <p>fans data</p>
           </li>
 
-          <li class="op">
+          <li class="op" role="button" tabindex="0">
             <i class="fas fa-money-check-alt"></i>
             <p>income</p>
           </li>
 
-          <li class="op">
+          <li class="op" role="button" tabindex="0">
             <i class="far fa-image"></i>
             <p>works</p>
           </li>
 
-          <li class="op">
+          <li class="op" role="button" tabindex="0">
             <i class="far fa-comment-dots"></i>
             <p>
               messages
@@ -87,7 +88,7 @@
           <li>
             <i class="far fa-bell"></i>
           </li>
-          <li id="bars"><i class="fas fa-bars"></i></li>
+          <li id="bars" role="button" tabindex="0" aria-label="Toggle sidebar"><i class="fas fa-bars"></i></li>
         </ul>
       </div>
       <!-- end nav icons -->
@@ -187,21 +188,21 @@
                 <p class="female">Female Fans</p>
               </div>
               <div class="dropdown bar" id="dropdown-bars">
-                <p>
+                <p role="button" tabindex="0" aria-haspopup="true">
                   <span id="bar_span" class="active"> Last 7 days </span>
                   <i class="fas fa-sort-down"></i>
                 </p>
                 <div class="drop-menu" id="dropdown-menu-bars">
                   <ul class="drop-ul bars">
-                    <li class="bar_op">All time</li>
+                    <li class="bar_op" role="button" tabindex="0">All time</li>
 
-                    <li class="bar_op">Last 90 days</li>
+                    <li class="bar_op" role="button" tabindex="0">Last 90 days</li>
 
-                    <li class="bar_op">Last 30 days</li>
+                    <li class="bar_op" role="button" tabindex="0">Last 30 days</li>
 
-                    <li class="bar_op active">Last 7 days</li>
+                    <li class="bar_op active" role="button" tabindex="0">Last 7 days</li>
 
-                    <li class="bar_op">Today</li>
+                    <li class="bar_op" role="button" tabindex="0">Today</li>
                   </ul>
                 </div>
               </div>
@@ -218,21 +219,21 @@
             <h6>Income</h6>
             <div>
               <div class="dropdown" id="dropdown-pie">
-                <p>
+                <p role="button" tabindex="0" aria-haspopup="true">
                   <span id="pie_span" class="active"> Last 7 days </span>
                   <i class="fas fa-sort-down"></i>
                 </p>
                 <div class="drop-menu" id="dropdown-menu-pie">
                   <ul class="drop-ul pie">
-                    <li class="">All time</li>
+                    <li class="" role="button" tabindex="0">All time</li>
 
-                    <li class="">Last 90 days</li>
+                    <li class="" role="button" tabindex="0">Last 90 days</li>
 
-                    <li class="">Last 30 days</li>
+                    <li class="" role="button" tabindex="0">Last 30 days</li>
 
-                    <li class="active">Last 7 days</li>
+                    <li class="active" role="button" tabindex="0">Last 7 days</li>
 
-                    <li class="">Today</li>
+                    <li class="" role="button" tabindex="0">Today</li>
                   </ul>
                 </div>
               </div>
@@ -284,21 +285,21 @@
           <div class="table-header">
             <h5>Fans Increase</h5>
             <div class="dropdown" id="dropdown-table">
-              <p>
+              <p role="button" tabindex="0" aria-haspopup="true">
                 <span id="table_span" class="active"> Last 7 days </span>
                 <i class="fas fa-sort-down"></i>
               </p>
               <div class="drop-menu " id="dropdown-menu-table">
                 <ul class="drop-ul table">
-                  <li class="">All time</li>
+                  <li class="" role="button" tabindex="0">All time</li>
 
-                  <li class="">Last 90 days</li>
+                  <li class="" role="button" tabindex="0">Last 90 days</li>
 
-                  <li class="">Last 30 days</li>
+                  <li class="" role="button" tabindex="0">Last 30 days</li>
 
-                  <li class="active">Last 7 days</li>
+                  <li class="active" role="button" tabindex="0">Last 7 days</li>
 
-                  <li class="">Today</li>
+                  <li class="" role="button" tabindex="0">Today</li>
                 </ul>
               </div>
             </div>
@@ -1132,6 +1133,8 @@
       <!-- end main data -->
     </div>
     <!-- END😥 -->
+  </div>
+  <!-- /.dashboard-body -->
 
     <!-- scripts -->
     <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>

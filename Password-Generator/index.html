@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random Password Generator</title>
     <link rel="stylesheet" href="style.css" />
     <link
@@ -18,8 +19,8 @@
         <div class="display">
           <input type="text" />
 
-          <span class="far fa-copy" onclick="copy()"></span>
-          <span class="fas fa-copy" onclick="copy()"></span>
+          <span class="far fa-copy" role="button" tabindex="0" aria-label="Copy password" onclick="copy()"></span>
+          <span class="fas fa-copy" role="button" tabindex="0" aria-label="Password copied" onclick="copy()"></span>
         </div>
 
         <button>Generate Password</button>

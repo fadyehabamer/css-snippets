@@ -6,3 +6,11 @@ function changeImage(event, container, activeimg) {
     }
     event.classList.add("active");
 }
+
+// thumbnails are <div role="button">: let Enter/Space activate them like a native button
+document.addEventListener("keydown", (e) => {
+    if ((e.key === "Enter" || e.key === " ") && e.target.matches(".thumb-img .box")) {
+        e.preventDefault();
+        e.target.click();
+    }
+});

@@ -163,3 +163,13 @@ drop_li_table.forEach((element) => {
   });
 });
 // ---------------------------------------------------------------------------------------------------------
+
+// Several controls here are <li>/<p> elements with role="button" (sidebar items,
+// the sidebar toggle and the dropdowns). Let Enter/Space activate them like a
+// native button so the dashboard is usable from the keyboard.
+document.addEventListener("keydown", (e) => {
+  if ((e.key === "Enter" || e.key === " ") && e.target.matches('[role="button"]')) {
+    e.preventDefault();
+    e.target.click();
+  }
+});

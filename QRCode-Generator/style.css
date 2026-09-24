@@ -27,6 +27,10 @@ input[type=text] {
     border-radius: 4px;
     outline: none;
 }
+input[type=text]:focus-visible {
+    border-color: #009DFF;
+    box-shadow: 0 0 0 3px rgba(0, 157, 255, 0.4);
+}
 
 #qrcode {
     border: 7px solid ;

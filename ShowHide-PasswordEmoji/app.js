@@ -10,6 +10,7 @@ icon.onclick = function () {
         icon.className = 'fa fa-eye icon';
         inputPass2.className = 'input-field';
         emoji.innerHTML = "🐵"
+        icon.setAttribute('aria-pressed', 'true');
 
 
     } else if (inputPass2.className == 'input-field') {
@@ -17,10 +18,18 @@ icon.onclick = function () {
         icon.className = 'fa fa-eye-slash icon';
         inputPass2.className = 'input-field active';
         emoji.innerHTML = "🙈"
+        icon.setAttribute('aria-pressed', 'false');
     }
 
 }
 
+// the eye icon is an <i role="button">: let Enter/Space toggle it too
+icon.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        icon.click();
+    }
+});
 
 // typed.js
 var options = {

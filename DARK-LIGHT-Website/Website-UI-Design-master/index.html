@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Great</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
 	<link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
 
 	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
@@ -24,7 +26,7 @@
 
 	<div id="header" class="header">
 		<li class="logo"> FA</li>
-		<button class="button"><i class="fas fa-bars"></i></button>
+		<button class="button" aria-label="Toggle menu"><i class="fas fa-bars" aria-hidden="true"></i></button>
 
 
 		<nav class="nav">
@@ -34,10 +36,7 @@
 			<li>Blog</li>
 			<li class="active">Contact</li>
 			<li id="bind" class="bind">
-				<i id="light" class="far fa-lightbulb"></i>
-				</i>
-
-				</i>
+				<i id="light" class="far fa-lightbulb" role="button" tabindex="0" aria-label="Toggle dark mode" aria-pressed="false"></i>
 
 			</li>
 
@@ -76,7 +75,6 @@
 				</div>
 			</div>
 		</div>
-	</div>
 	</div>
 	<div class="bg">
 		<h1>Our Great Services</h1>

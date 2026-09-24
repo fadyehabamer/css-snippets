@@ -90,6 +90,11 @@ body {
     background: #2fa5e9;
 }
 
+.wrapper button:focus-visible {
+    outline: 3px solid #1a6fa0;
+    outline-offset: 2px;
+}
+
 .captcha-area .reload-btn {
     width: 75px;
     height: 100%;

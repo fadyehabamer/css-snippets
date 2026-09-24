@@ -59,6 +59,11 @@ body {
     outline:none;
 }
 
+.btn:focus-visible {
+    outline: 3px solid #4a2447;
+    outline-offset: 3px;
+}
+
 .preloader {
     position: absolute;
     display: flex;

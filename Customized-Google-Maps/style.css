@@ -29,6 +29,11 @@ input[type=text]:focus {
     outline: none;
 }
 
+input[type=text]:focus-visible {
+    border-color: #1a73e8;
+    box-shadow: 0 0 0 3px rgb(26 115 232 / 45%);
+}
+
 a {
     width: 40px;
     height: 40px;

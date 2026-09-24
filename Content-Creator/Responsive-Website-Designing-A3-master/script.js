@@ -15,3 +15,15 @@ times.addEventListener("click", function(){
 	bars.style.display = "block";
 	navbar.style.display = "none";
 });
+
+// the menu icons are <i role="button">: let Enter/Space activate them too
+[bars, times].forEach(function(icon){
+	icon.addEventListener("keydown", function(e){
+		if (e.key === "Enter" || e.key === " ") {
+			e.preventDefault();
+			this.click();
+			// the clicked icon is now hidden; keep focus on the visible one
+			(this === bars ? times : bars).focus();
+		}
+	});
+});

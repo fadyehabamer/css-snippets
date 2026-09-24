@@ -42,8 +42,14 @@ h1 {
     width: 100%;
 }
 
+/* visually hidden but still focusable, so keyboard users can open the picker
+   (display: none removed the only way to reach it without a mouse) */
 #file {
-    display: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    overflow: hidden;
 }
 
 #upload {
@@ -59,4 +65,12 @@ h1 {
     font-size: 15px;
     cursor: pointer;
     display: none;
+}
+
+/* show the "change profile pic" bar while the hidden file input has keyboard focus
+   (!important beats the inline display set by the hover handlers in main.js) */
+#file:focus-visible + #upload {
+    display: block !important;
+    outline: 2px solid wheat;
+    outline-offset: -4px;
 }

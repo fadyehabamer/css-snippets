@@ -8,7 +8,7 @@ DSC Open Source Presentation.
 
 ## 🛠 Built With
 
-_Static HTML/CSS._
+PDF slide deck
 
 ## 📁 Files
 
@@ -21,7 +21,7 @@ Free download manger.pdf
 ```bash
 git clone https://github.com/fadyehabamer/css-snippets.git
 cd css-snippets/DSC-openSource-Presentation
-# then open index.html in your browser
+# then open "Free download manger.pdf"
 ```
 
 **Topics:** `dsc` `fdm` `opensource`

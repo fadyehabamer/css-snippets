@@ -87,6 +87,11 @@ a:hover, a:focus {
     outline: none;
 }
 
+a:focus-visible {
+    outline: 2px solid #E7A417;
+    outline-offset: 2px;
+}
+
 .full-width {
     width: 100%;
 }
@@ -1118,6 +1123,11 @@ footer .website-info {
     color: #ddd;
     border-color: #999;
     outline: none;
+}
+
+.website-info .website input:focus-visible {
+    border-color: #E7A417;
+    outline: 2px solid #E7A417;
 }
 
 .website-info .newsletter {

@@ -184,3 +184,10 @@ body.active {
   opacity: .8;
   letter-spacing: 1px;
 }
+
+/* the * reset removes every outline; restore a keyboard focus ring */
+[role="button"]:focus-visible,
+a:focus-visible {
+  outline: 3px solid var(--black);
+  outline-offset: 3px;
+}

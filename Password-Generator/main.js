@@ -22,3 +22,13 @@ function copy(){
     display.select();
     document.execCommand("copy");
 }
+
+// the copy icons are <span role="button">: let Enter/Space trigger them too
+[copyBtn, copyActive].forEach((icon) => {
+    icon.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            copy();
+        }
+    });
+});

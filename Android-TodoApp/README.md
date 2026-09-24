@@ -8,7 +8,7 @@ Never Forget What TODO.
 
 ## 🛠 Built With
 
-_Static HTML/CSS._
+Java · Android (Gradle project)
 
 ## 📁 Files
 
@@ -29,7 +29,7 @@ settings.gradle
 ```bash
 git clone https://github.com/fadyehabamer/css-snippets.git
 cd css-snippets/Android-TodoApp
-# then open index.html in your browser
+# then open this folder in Android Studio and run the app module
 ```
 
 **Topics:** `java` `android-application` `android` `todo` `realm` `database`

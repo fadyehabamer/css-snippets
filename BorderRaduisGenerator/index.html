@@ -2,21 +2,14 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Border Radius Generator</title>
   <link rel="stylesheet" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Border Radius Generator</title>
-    <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-<body>
 
     <div class="container">
         <div class="box">
@@ -31,28 +24,26 @@
             <br>
             <div class="controls clear-fix">
                 <div class="float-left">
-                    <label>Top</label>
+                    <label for="radius-top">Top</label>
                     <br>
-                    <input class="range top m-3" type="range"></input>
+                    <input id="radius-top" class="range top m-3" type="range">
                     <br>
-                    <label>Right</label>
+                    <label for="radius-right">Right</label>
                     <br>
-                    <input class="range right m-3" type="range"></input>
+                    <input id="radius-right" class="range right m-3" type="range">
                 </div>
                 <div class="float-right">
-                    <label>Bottom</label>
+                    <label for="radius-bottom">Bottom</label>
                     <br>
-                    <input class="range bottom m-3" type="range"></input>
+                    <input id="radius-bottom" class="range bottom m-3" type="range">
                     <br>
-                    <label>Left</label>
+                    <label for="radius-left">Left</label>
                     <br>
-                    <input class="range left m-3" type="range"></input>
+                    <input id="radius-left" class="range left m-3" type="range">
                 </div>
             </div>
         </div>
     </div>
-</body>
-</html>
 <!-- partial -->
   <script  src="./script.js"></script>
 
